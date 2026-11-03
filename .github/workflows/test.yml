@@ -1,0 +1,9 @@
+name: T7a - Job-level intra-org reusable workflow with full SHA
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  call:
+    uses: test-sshedge-org/test-sha-reusable-source/.github/workflows/reusable.yml@8085a0d77b37d0fee7200b5dc1381d1de2d58fc4
